@@ -1,4 +1,5 @@
 # The purpose of this function is to pull a container creation date from a custom list in Phantom. 
+# This function should work to pull any field out of a custom list in Phantom
 # You can then feed the pulled date into another function to run comparisons. 
 
 def date_pull(list_data=None, **kwargs):
